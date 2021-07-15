@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name MP1499GD)(type Legacy)(uri "D:/Projects/4710MQ Power Supply/MP1499GD.lib")(options "")(descr ""))
+  (lib (name TSM1285BCSA)(type Legacy)(uri ${KIPRJMOD}/TSM1285BCSA.lib)(options "")(descr ""))
 )
