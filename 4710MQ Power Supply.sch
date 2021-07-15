@@ -41,7 +41,7 @@ U 1 1 6117BDDE
 P 850 5100
 F 0 "J1" H 907 5425 50  0000 C CNN
 F 1 "Jack-DC" H 907 5334 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal" H 900 5060 50  0001 C CNN
+F 2 "DC015:DC015" H 900 5060 50  0001 C CNN
 F 3 "~" H 900 5060 50  0001 C CNN
 	1    850  5100
 	1    0    0    -1  
@@ -365,108 +365,6 @@ Wire Wire Line
 	1150 5000 1550 5000
 Wire Wire Line
 	1150 5200 1550 5200
-Text Label 1550 5000 2    50   ~ 0
-JACK_CTR
-Text Label 1550 5200 2    50   ~ 0
-JACK_OUT
-$Comp
-L Jumper:SolderJumper_2_Open JP1
-U 1 1 611D7CEA
-P 2450 4900
-F 0 "JP1" H 2450 5105 50  0000 C CNN
-F 1 "CTR_VDC" H 2450 5014 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2450 4900 50  0001 C CNN
-F 3 "~" H 2450 4900 50  0001 C CNN
-	1    2450 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 4900 1900 4900
-Wire Wire Line
-	2600 4900 3000 4900
-Wire Wire Line
-	3000 4900 3000 4700
-$Comp
-L Jumper:SolderJumper_2_Open JP3
-U 1 1 611E0BFC
-P 3750 4900
-F 0 "JP3" H 3750 5105 50  0000 C CNN
-F 1 "OUT_VDC" H 3750 5014 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 3750 4900 50  0001 C CNN
-F 3 "~" H 3750 4900 50  0001 C CNN
-	1    3750 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 4900 3200 4900
-Wire Wire Line
-	3900 4900 4300 4900
-Wire Wire Line
-	4300 4900 4300 4700
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 611E1F90
-P 2450 5350
-F 0 "JP2" H 2450 5555 50  0000 C CNN
-F 1 "CTR_GND" H 2450 5464 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 2450 5350 50  0001 C CNN
-F 3 "~" H 2450 5350 50  0001 C CNN
-	1    2450 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2300 5350 1900 5350
-Wire Wire Line
-	2600 5350 3000 5350
-$Comp
-L Jumper:SolderJumper_2_Open JP4
-U 1 1 611E3280
-P 3750 5350
-F 0 "JP4" H 3750 5555 50  0000 C CNN
-F 1 "OUT_GND" H 3750 5464 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 3750 5350 50  0001 C CNN
-F 3 "~" H 3750 5350 50  0001 C CNN
-	1    3750 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3600 5350 3200 5350
-Wire Wire Line
-	3900 5350 4300 5350
-Wire Wire Line
-	3000 5350 3000 5550
-Wire Wire Line
-	4300 5350 4300 5550
-$Comp
-L power:GND #PWR0109
-U 1 1 611E7F6F
-P 3000 5550
-F 0 "#PWR0109" H 3000 5300 50  0001 C CNN
-F 1 "GND" H 3005 5377 50  0000 C CNN
-F 2 "" H 3000 5550 50  0001 C CNN
-F 3 "" H 3000 5550 50  0001 C CNN
-	1    3000 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 611E86F6
-P 4300 5550
-F 0 "#PWR0110" H 4300 5300 50  0001 C CNN
-F 1 "GND" H 4305 5377 50  0000 C CNN
-F 2 "" H 4300 5550 50  0001 C CNN
-F 3 "" H 4300 5550 50  0001 C CNN
-	1    4300 5550
-	1    0    0    -1  
-$EndComp
-Text Label 1900 4900 0    50   ~ 0
-JACK_CTR
-Text Label 1900 5350 0    50   ~ 0
-JACK_CTR
-Text Label 3200 4900 0    50   ~ 0
-JACK_OUT
-Text Label 3200 5350 0    50   ~ 0
-JACK_OUT
 Wire Wire Line
 	700  1200 700  1000
 Wire Wire Line
@@ -482,28 +380,6 @@ F 1 "+5V" H 6815 1573 50  0000 C CNN
 F 2 "" H 6800 1400 50  0001 C CNN
 F 3 "" H 6800 1400 50  0001 C CNN
 	1    6800 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0112
-U 1 1 61204452
-P 4300 4700
-F 0 "#PWR0112" H 4300 4550 50  0001 C CNN
-F 1 "+12V" H 4315 4873 50  0000 C CNN
-F 2 "" H 4300 4700 50  0001 C CNN
-F 3 "" H 4300 4700 50  0001 C CNN
-	1    4300 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR0113
-U 1 1 61204D4E
-P 3000 4700
-F 0 "#PWR0113" H 3000 4550 50  0001 C CNN
-F 1 "+12V" H 3015 4873 50  0000 C CNN
-F 2 "" H 3000 4700 50  0001 C CNN
-F 3 "" H 3000 4700 50  0001 C CNN
-	1    3000 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -710,4 +586,30 @@ Wire Wire Line
 Connection ~ 1350 1200
 Wire Wire Line
 	1350 1200 1950 1200
+Wire Wire Line
+	1550 5000 1550 4800
+Wire Wire Line
+	1550 5200 1550 5400
+$Comp
+L power:+12V #PWR0109
+U 1 1 61356D30
+P 1550 4800
+F 0 "#PWR0109" H 1550 4650 50  0001 C CNN
+F 1 "+12V" H 1565 4973 50  0000 C CNN
+F 2 "" H 1550 4800 50  0001 C CNN
+F 3 "" H 1550 4800 50  0001 C CNN
+	1    1550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6135740B
+P 1550 5400
+F 0 "#PWR0110" H 1550 5150 50  0001 C CNN
+F 1 "GND" H 1555 5227 50  0000 C CNN
+F 2 "" H 1550 5400 50  0001 C CNN
+F 3 "" H 1550 5400 50  0001 C CNN
+	1    1550 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

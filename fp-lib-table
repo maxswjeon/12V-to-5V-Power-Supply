@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name MP1499GD)(type KiCad)(uri "D:/Projects/4710MQ Power Supply")(options "")(descr ""))
+  (lib (name DC015)(type KiCad)(uri ${KIPRJMOD}/DC015.pretty)(options "")(descr ""))
 )
